@@ -1,0 +1,130 @@
+.catelul {
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#catel-complet {
+    position: relative;
+    background-color: rgb(249, 249, 249);
+    display: inline-block;
+    /* transform: translate(-50%, 50%); */
+   
+    
+    
+    
+}
+
+.corp {
+    position: relative;
+    max-height: 500px;
+    margin: auto;
+    z-index: 4;
+}
+
+.nas {
+    position: absolute;
+    top: 157px;
+    left: 36px;
+    max-width: 73px;
+    z-index: 5;
+    transition: transform 0.1s ;
+}
+.coada {
+    position: absolute;
+    top: 325px;
+    left: 277px;
+    max-width: 54px;
+    z-index: 3;
+    transform: rotate(2deg);
+    transform-origin: 0px 94px;
+    transition: transform 0.1s ease;
+}
+
+.ureche {
+    position: absolute;
+    top: 4px;
+    left: 173px;
+    max-width: 111px;
+    z-index: 3;
+    transition: transform 0.1s ease;
+}
+
+.spranceana {
+    position: absolute;
+    top: 90px;
+    left: 119px;
+    max-width: 41px;
+    z-index: 5;
+    transition: transform 0.05s ease;
+}
+
+.picior {
+    position: absolute;
+    top: 412px;
+    left: 100px;
+    max-width: 28px;
+    z-index: 3;
+    transition: transform 0.2s ease;
+    transform-origin: 13px 20px;
+}
+
+.zgarda {
+    position: absolute;
+    top: 331px;
+    left: 96px;
+    max-width: 65px;
+    z-index: 5;
+    transition: transform 0.2s ease;
+}
+
+.bg{
+    position: absolute;
+    z-index: 1;
+    max-height: 508px;
+    top: 0px;
+    left: -198px;
+ 
+}
+
+button{
+   
+   
+            appearance: none;
+            background-color: #FFFFFF;
+            border-radius: 40em;
+            border-style: none;
+            box-shadow: #ADCFFF 0 -12px 6px inset;
+            box-sizing: border-box;
+            color: #000000;
+            cursor: pointer;
+            display: inline-block;
+            font-family: -apple-system, sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: -.24px;
+            margin: 0;
+            outline: none;
+            padding: 1rem 1.3rem;
+            quotes: auto;
+            text-align: center;
+            text-decoration: none;
+            transition: all .15s;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+    
+        button:hover {
+            background-color: #FFC229;
+            box-shadow: #FF6314 0 -6px 8px inset;
+            transform: scale(1.125);
+        }
+    
+        button:active {
+            transform: scale(1.025);
+        }
+    
+      
+
+      
